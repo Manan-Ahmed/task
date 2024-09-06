@@ -2,8 +2,8 @@
 import { ProductData } from '@/context/product-context'
 
 
-export default function CartList({addToCart}:any) {
-    const {products,fetchProducts,setProducts,setCount,cart,setCart,cartShow,setCartShow} = ProductData()!
+export default function CartList() {
+    const {setCount,cart,setCart,cartShow,setCartShow} = ProductData()!
   
     
 
